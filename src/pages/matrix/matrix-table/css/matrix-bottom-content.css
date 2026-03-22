@@ -1,0 +1,57 @@
+
+
+.matrix-bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+
+
+.percentile-row {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(135deg, #f8f0ff 0%, #f0e6ff 100%);
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+  color: #4a2d7a;
+}
+
+.percentile-label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.percentile-cell {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.add-row-button {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #d4d4d8;
+  border-radius: 8px;
+  background: transparent;
+  color: #71717a;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.add-row-button:hover {
+  border-color: #a78bfa;
+  color: #7c3aed;
+  background: #faf5ff;
+}
