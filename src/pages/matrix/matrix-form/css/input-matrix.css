@@ -1,0 +1,17 @@
+
+.input-matrix {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.input-matrix .label-input-wrapper {
+    flex: 1;
+    min-width: 120px;
+}
+
+.input-matrix .buttonv1 {
+    width: 100%;
+    margin-top: 8px;
+}

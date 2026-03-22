@@ -1,0 +1,22 @@
+
+.main-matrix-form { 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+    min-width: 320px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    padding: 28px 32px;
+    border: 1px solid #e2e2e2;
+}
+
+.main-matrix-form > span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+    letter-spacing: 0.02em;
+}
