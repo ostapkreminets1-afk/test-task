@@ -1,4 +1,4 @@
-import type { MatrixData, Cell } from "../types/cell";
+import type { MatrixData } from "../types/cell";
 import { createRow } from "../factory/matrix-factory";
 
 export interface MatrixState {

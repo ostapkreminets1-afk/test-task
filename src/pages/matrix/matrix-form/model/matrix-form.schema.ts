@@ -13,8 +13,7 @@ const numberField = (name: string, min: number, max?: number) =>
     (val) => (val === "" || val === null || val === undefined ? undefined : Number(val)),
     z
       .number({
-        required_error: `${name} є обов'язковим`,
-        invalid_type_error: `${name} має бути числом`,
+        message: `${name} є обов'язковим і має бути числом`,
       })
       .int(`${name} має бути цілим числом`)
       .min(min, `${name} не може бути менше ${min}`)

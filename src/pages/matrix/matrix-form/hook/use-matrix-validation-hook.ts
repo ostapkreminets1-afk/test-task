@@ -4,6 +4,7 @@ import {
   matrixFormSchema,
   MATRIX_FORM_DEFAULTS,
   type MatrixFormInput,
+  type MatrixFormOutput,
 } from "../model/matrix-form.schema";
 
 export function useMatrixValidation() {
@@ -12,7 +13,7 @@ export function useMatrixValidation() {
     handleSubmit,
     watch,
     formState: { errors, isValid },
-  } = useForm<MatrixFormInput>({
+  } = useForm<MatrixFormInput, any, MatrixFormOutput>({
     resolver: zodResolver(matrixFormSchema),
     defaultValues: MATRIX_FORM_DEFAULTS,
     mode: "onChange",
